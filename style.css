@@ -38,13 +38,6 @@ body{
   position: relative;
   font-family: Montserrat;
 }
-/* .coloroverlay{
-  width: 100%;
-  height: 100%;
-  background: #0000;
-  opacity: .7;
-  position: absolute;
-} */
 .isi {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -78,4 +71,83 @@ body{
 .tombolcoba h2{
   position: center;
   color: #003366;
+}
+
+.login{
+  width: 280px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin-top: 300px;
+  color: white;
+}
+.login h1{
+  margin-left: 18%;
+  font-size: 60px;
+  color: #53bca6;
+}
+.loginbox{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 2px solid #53bca6;
+}
+
+
+.loginbox input{
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 0px;
+}
+.btn{
+  margin-left: 25%;
+  width: 50%;
+  border: none;
+  border-radius: 20px;
+  background: #53bca6;
+  font-size: 16pt;
+  padding: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.Regis{
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin-top: 300px;
+  color: white;
+}
+.Regis h1{
+  margin-left: 12%;
+  font-size: 40px;
+  color: #53bca6;
+}
+.registrasiform{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 2px solid #53bca6;
+}
+.registrasiform input{
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 0px;
 }
