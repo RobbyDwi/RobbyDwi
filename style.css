@@ -38,13 +38,13 @@ body{
   position: relative;
   font-family: Montserrat;
 }
-.coloroverlay{
+/* .coloroverlay{
   width: 100%;
   height: 100%;
   background: #0000;
   opacity: .7;
   position: absolute;
-}
+} */
 .isi {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
