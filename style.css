@@ -151,3 +151,19 @@ body{
   float: left;
   margin: 0 0px;
 }
+
+.about{
+  margin-left: 160px;
+  margin-top: 200px;
+  width: 80%;
+  color: white;
+  text-align: center;
+}
+.about h1{
+  margin-top: -20px;
+  font-size: 60pt;
+}
+
+.about p{
+  margin-top: -50px;
+}
