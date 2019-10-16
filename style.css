@@ -33,10 +33,10 @@ header {
   color: white;
 }
 body{
-  background-image: url(https://i.pinimg.com/originals/b1/3b/84/b13b847c68f33de79707b5364906b2c8.jpg);
+  background-image: url(bg.jpg);
   background-size: cover;
   position: relative;
-  font-family: helvetica;
+  font-family: Montserrat;
 }
 .coloroverlay{
   width: 100%;
