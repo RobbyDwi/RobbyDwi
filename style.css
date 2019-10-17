@@ -167,3 +167,69 @@ body{
 .about p{
   margin-top: -50px;
 }
+.kelas h2{
+  font-size: 40pt;
+  width: 100%;
+  align-items: center;
+  margin-left: 550px;
+  color: white;
+}
+.tempatkelas{
+  width: 60%;
+  height: 45vw;
+  background-color: none;
+  position: relative;
+  margin-left: 20vw;
+}
+.tempatkelas h1{
+  font-size: 1.5vw;
+  display: block;
+  margin-top: 9%;
+  color: black;
+}
+.tempatkelas img{
+  width: 7vw;
+  margin-top: 5%;
+
+}
+.web{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 45%;
+  height: 20vw;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0px 1px 10px #888888;
+
+}
+.android{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 45%;
+  height: 20vw;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0px 1px 10px #888888;
+}
+.Algo{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 45%;
+  height: 20vw;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0px 1px 10px #888888;
+}
+.Ui{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 45%;
+  height: 20vw;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0px 1px 10px #888888;
+}
