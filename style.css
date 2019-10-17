@@ -17,6 +17,7 @@ header {
   padding: 30px 10%;
   background: rgba(66, 97, 153, 0.9);
   height: 30px;
+  box-shadow: 0px 10px 8px rgba(30, 30, 69,.7);
 }
 
 .navlink{
@@ -106,6 +107,7 @@ body{
   width: 80%;
   float: left;
   margin: 0 0px;
+
 }
 .btn{
   margin-left: 25%;
@@ -118,6 +120,7 @@ body{
   cursor: pointer;
   margin-top: 20px;
   font-weight: bold;
+  box-shadow: 0px 5px 7px rgba(53, 118, 104, 0.7);
 }
 .Regis{
   width: 300px;
@@ -197,10 +200,10 @@ body{
   top: 0;
   width: 45%;
   height: 20vw;
-  background-color: white;
+  background-color: rgba(255, 255, 255,0.8);
   text-align: center;
-  box-shadow: 0px 1px 10px #888888;
-
+  box-shadow: 0px 1px 10px rgba(53, 118, 104, 0.9);
+  border-radius: 40px;
 }
 .android{
   position: absolute;
@@ -208,9 +211,10 @@ body{
   top: 0;
   width: 45%;
   height: 20vw;
-  background-color: white;
+  background-color: rgba(255, 255, 255,0.8);
   text-align: center;
-  box-shadow: 0px 1px 10px #888888;
+  box-shadow: 0px 1px 10px rgba(53, 118, 104, 0.9);
+  border-radius: 40px;
 }
 .Algo{
   position: absolute;
@@ -218,9 +222,10 @@ body{
   bottom: 0;
   width: 45%;
   height: 20vw;
-  background-color: white;
+  background-color: rgba(255, 255, 255,0.8);
   text-align: center;
-  box-shadow: 0px 1px 10px #888888;
+  box-shadow: 0px 1px 10px rgba(53, 118, 104, 0.9);
+  border-radius: 40px;
 }
 .Ui{
   position: absolute;
@@ -228,7 +233,8 @@ body{
   bottom: 0;
   width: 45%;
   height: 20vw;
-  background-color: white;
+  background-color: rgba(255, 255, 255,0.8);
   text-align: center;
-  box-shadow: 0px 1px 10px #888888;
+  box-shadow: 0px 1px 10px rgba(53, 118, 104, 0.9);
+  border-radius: 40px;
 }
