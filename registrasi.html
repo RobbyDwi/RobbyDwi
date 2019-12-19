@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>E-Akademi</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="jquery.js" type="text/javascript"></script>
+
+<body class="body">
+	<header>
+		<div class="burger">
+			<div class="bar"></div>
+			<div class="bar"></div>
+			<div class="bar"></div>
+		</div>
+
+		<a href="index.html">
+			<h1 class="logo">E-Akademi</h1>
+		</a>
+		<nav>
+			<ul class="navlink">
+				<a onclick="document.getElementById('modal').style.display='block'">
+					<li>Masuk</li>
+				</a>
+				<li><a href="bantuan.html">
+						<center>Bantuan</center>
+					</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="Regis">
+		<h1>Registrasi</h1>
+		<div class="container">
+			<div class="vl">
+				<span class="vl-innertext">or</span>
+			</div>
+
+			<div class="DirectRegis">
+				<a onclick="document.getElementById('fb-modal').style.display='block'">
+					<i class="fa fa-facebook fa-fw">
+					</i>Masuk Dengan Facebook</a>
+				<a onclick="document.getElementById('tw-modal').style.display='block'">
+					<i class="fa fa-twitter fa-fw">
+					</i>Masuk Dengan Twitter</a>
+				<a onclick="document.getElementById('gg-modal').style.display='block'">
+					<i class="fa fa-google fa-fw">
+					</i>Masuk Dengan Gmail</a>
+			</div>
+			<form action="kelas.html" class="ManualRegis">
+				<input class="registrasiform" type="text" placeholder="Nama" name="" value="" required>
+				<input class="registrasiform" type="text" placeholder="Nomor Telp." name="" value="" required>
+				<input class="registrasiform" type="text" placeholder="Username" name="" value="" required>
+				<input class="registrasiform" type="password" placeholder="Password" name="" value="" required>
+				<input class="registrasiform" type="password" placeholder="Re-Password" name="" value="" required>
+				<input class="btn" type="submit" name="" value="Registrasi">
+			</form>
+
+		</div>
+
+		<!-- <a href="kelas.html"><input class="btn" type="submit" name="" value="Registrasi"></a> -->
+	</div>
+
+	<div id="modal">
+		<form action="kelas.html" class="login" id="login">
+			<h1>Login</h1>
+			<div class="loginbox">
+				<input type="text" placeholder="Username" name="" value="" required>
+			</div>
+			<div class="loginbox">
+				<input type="password" placeholder="Password" name="" value="" required>
+			</div>
+			<div class="modalbtn">
+				<input type="submit" class="btn" type="button" name="" value="Login">
+				<button type="button" onclick="document.getElementById('modal').style.display='none'"
+					class="cancelbtn">Cancel</button>
+			</div>
+		</form>
+	</div>
+	<div id="fb-modal">
+		<form action="kelas.html" class="login" id="login">
+			<h1><i style="color:#3B5998;" class="fa fa-facebook fa-fw">
+				</i>Masuk Facebook</h1>
+			<div class="loginbox">
+				<input type="text" placeholder="Username" name="" value="" required>
+			</div>
+			<div class="loginbox">
+				<input type="password" placeholder="Password" name="" value="" required>
+			</div>
+			<div class="modalbtn">
+				<input type="submit" class="btn" type="button" name="" value="Login">
+				<button type="button" onclick="document.getElementById('fb-modal').style.display='none'"
+					class="cancelbtn">Cancel</button>
+			</div>
+		</form>
+	</div>
+	<div id="tw-modal">
+		<form action="kelas.html" class="login" id="login">
+			<h1><i style="color:#55ACEE" class="fa fa-twitter fa-fw">
+				</i>Masuk Twitter</h1>
+			<div class="loginbox">
+				<input type="text" placeholder="Username" name="" value="" required>
+			</div>
+			<div class="loginbox">
+				<input type="password" placeholder="Password" name="" value="" required>
+			</div>
+			<div class="modalbtn">
+				<input type="submit" class="btn" type="button" name="" value="Login">
+				<button type="button" onclick="document.getElementById('tw-modal').style.display='none'"
+					class="cancelbtn">Cancel</button>
+			</div>
+		</form>
+	</div>
+	<div id="gg-modal">
+		<form action="kelas.html" class="login" id="login">
+			<h1><i style="color:#dd4b39" class="fa fa-google fa-fw">
+				</i>Masuk Google</h1>
+			<div class="loginbox">
+				<input type="text" placeholder="Username" name="" value="" required>
+			</div>
+			<div class="loginbox">
+				<input type="password" placeholder="Password" name="" value="" required>
+			</div>
+			<div class="modalbtn">
+				<input type="submit" class="btn" type="button" name="" value="Login">
+				<button type="button" onclick="document.getElementById('gg-modal').style.display='none'"
+					class="cancelbtn">Cancel</button>
+			</div>
+		</form>
+	</div>
+	<footer class="footer">
+		&copy; E-AKADEMI<sup>&trade;</sup> 2019
+	</footer>
+</body>
+</head>
+
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<title> E-Akademi</title>
+	<link rel=" stylesheet " type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="jquery.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<header>
+		<div class="burger">
+			<div class="bar"></div>
+			<div class="bar"></div>
+			<div class="bar"></div>
+		</div>
+		<a href="index.html">
+			<h1 class="logo">E-Akademi</h1>
+		</a>
+		<nav>
+			<ul class="navlink">
+				<a href="registrasi.html">
+					<li>Daftar</li>
+				</a>
+				<a onclick="document.getElementById('modal').style.display='block'">
+					<li>Masuk</li>
+				</a>
+				<a href="about.html">
+					<li>About</li>
+				</a>
+			</ul>
+		</nav>
+	</header>
+	<div class="konten">
+		<img class="gambar" src="Video_Tutorials-512.png" alt="icon belajar">
+		<div class="isi">
+			<h1>KELAS ONLINE TERBAIK</h1>
+			<h3>Kelas Online dengan harga murah dan materi terlengkap. Ayo Coba Sekarang!!!</h3>
+			<a href="registrasi.html">
+				<div class="tombolcoba">
+					<h2>COBA SEKARANG</h2>
+				</div>
+			</a>
+		</div>
+	</div>
+
+	<div id="modal">
+		<form action="kelas.html" class="login" id="login">
+			<h1>Login</h1>
+			<div class="loginbox">
+				<input type="text" placeholder="Username" name="" value="" required>
+			</div>
+			<div class="loginbox">
+				<input type="password" placeholder="Password" name="" value="" required>
+			</div>
+			<div class="modalbtn">
+				<input type="submit" class="btn" type="button" name="" value="Login">
+				<button type="button" onclick="document.getElementById('modal').style.display='none'"
+					class="cancelbtn">Cancel</button>
+			</div>
+		</form>
+	</div>
+
+	<footer class="footer">
+		&copy; E-AKADEMI<sup>&trade;</sup> 2019
+	</footer>
+</body>
+
+</html>
